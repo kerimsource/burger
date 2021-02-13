@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: fantasy;
+    font-size: 15px;
+    color: black;
+}
+#header{
+    width: 100%;
+    height: auto;
+    color: white;
+    background-color: #cc7722 ;
+    margin: 0px;
+}
+.container{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;    
+}
+.navbar{
+    float: right; 
+  width: 600px;
+}
+header, ul {
+    list-style: none;
+    padding: 5px 30px;
+    float: right;
+}
+header, li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+}
+header, a{
+    text-decoration: none;
+    color: #15365e;   
+    margin: 0 5px;
+    display: flex;
+    transition: ease-out;
+    transition-duration: 200ms;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+header .highlight, header .current a{
+    color: #808000;
+}
+.box{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+#logo h1{
+    font-size: 18px;
+    display: inline;
+    padding-left: 20px;
+    margin-top: 20px;
+    align-items: center;
+    padding-top: 10px;
+    color: #15365e;
+}
+#logo{
+    float: left; 
+    width: 300px;
+    padding-top: 17px;
+}
+#logo img{
+    width: 10%;
+    float: left;
+    padding-left: 10px;
+}
+#banner{
+    height: auto;
+    width: 100%;
+    background-color:  yellow;
+}
+#banner h2{
+    color: #15365e;
+    font-size: 30px;
+    line-height: 1.3;
+    font-weight: bolder;
+    font-family: 'Roboto Slab', serif;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+p{
+    font-size: 20px;
+    font-weight: ;
+    font-family: 'Benne', serif;
+    margin-bottom: 30px;
+    color: #78281F;
+}
+.btn{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    padding: 5px 20px;
+    background-color: #cc7722 ;
+    border: 3px #cc7722  solid;
+    width: 120px;
+    opacity: 1;
+    animation-name: btn;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+    transition-property: transform;
+    transition-duration: 1s;
+    display: block;   
+}
+.btn:hover {
+    transform: rotateY(360deg);
+}
